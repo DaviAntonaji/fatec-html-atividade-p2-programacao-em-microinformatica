@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Davi Antonaji & Rafael Batista">
+    <meta name="keywords" content="Noticias, Blog, Recentes">
+    <meta name="description" content="Site de noticias">
+    <title>Noticias</title>
+    <!-- CSS LINKS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- FONT AWESOME (PRO ICONE DE HAMBURGUER) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+
+    <nav>
+
+        <div class="topnav" id="navbar">
+            <a href="index.html">BAH Noticias</a>
+
+            
+            <a href="sobre.html">Sobre</a>
+            <a href="#" class="active">Contato</a>
+            <a href="javascript:void(0);" class="icon" onclick="openMenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+
+
+    <header>
+
+        <div class="head">
+
+            <img src="assets/images/logo.png" alt="">
+            <h2 style="color: white;">Ultimas noticias Gaúchas com chimarrão</h2>
+
+        </div>
+
+    </header>
+
+    <div class="container">
+        <h2>Entre em contato</h2>
+        <p>Preencha o formulario abaixo para entrar em contato</p>
+        <form action="enviaEmail.php">
+            <label for="email">E-mail:</label>
+            <input type="email" class="input" id="email" name="email" required>
+
+            <label for="email">Nome:</label>
+            <input type="text" class="input" id="nome" name="nome" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" class="input" rows="8" required></textarea>
+
+            <input type="submit" class="botao" id="submit" name="submit" value="Enviar">
+        </form>
+        
+
+
+
+    </div>
+    <div class="espaco"></div>
+    <footer class="rodape"><p>© Copyright 2021 - 2021 Davi Antonaji & Rafael Batista. All Rights Reserved</p></footer>
+
+    <script src="assets/js/open-menu.js"></script>
+
+</body>
+
+</html>
